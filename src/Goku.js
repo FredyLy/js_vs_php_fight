@@ -9,7 +9,7 @@ class Goku extends Component {
 
     const lifeValue = life > 0 ? `${life} %` : <span className="badge badge-danger">K.O.</span>;
 
-    const button = life > 0 
+    const button = life > 0
       ? (<button className="btn btn-success m-3" onClick={addOneHit}>{name} hits!</button>)
       : (<button className="btn btn-danger m-3" disabled>Beaten!</button>);
 
@@ -32,7 +32,6 @@ class Goku extends Component {
               <td>{lifeValue}</td>
             </tr>
           </tbody>
-
         </table>
       </div>
     )

@@ -32,7 +32,6 @@ class Vegeta extends Component {
               <td>{lifeValue}</td>
             </tr>
           </tbody>
-
         </table>
       </div>
     )
