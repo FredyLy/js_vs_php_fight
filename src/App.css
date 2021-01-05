@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+h1 {
+  background-color: #032b7a;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  background-color: #032b7a;
+  color: white;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+.copyr {
+  font-size: 0.8em;
+}
+
+.description {
+  border: 1px solid #bdbbbb36;
+  padding: 20px 30px;
+  margin: 3% 25%;
+  border-radius: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

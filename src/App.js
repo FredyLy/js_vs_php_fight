@@ -25,15 +25,24 @@ class App extends Component {
   
   render() {
     return (
-      <div className="container text-center">
-        <h1>Goku Vs Vegeta</h1>
-        <hr />
+      <div>
+        <header>
+          <h1>Goku Vs Vegeta</h1>
+        </header>
+        <div className="container text-center">
+          <h2 style={{color: 'darkred', margin: '4vh'}}>Let the fight begin!</h2>
+          <hr />
+          <p className="description">Click on the HIT button to start the fight.</p>
 
-        <div className="row">
-          <Vegeta name="Vegeta" life={this.state.vegeta} reduceHandler={this.reduceLife}/>
-          <Goku name="Goku" life={this.state.goku} reduceHandler={this.reduceLife}/>
+          <div className="row">
+            <Vegeta name="Vegeta" life={this.state.vegeta} reduceHandler={this.reduceLife}/>
+            <Goku name="Goku" life={this.state.goku} reduceHandler={this.reduceLife}/>
+          </div>
         </div>
-  
+
+        <footer>
+          <p className='copyr'>© 2020 Donkey Geek - App made by Fredy L</p>
+        </footer>
       </div>
     );
   }
