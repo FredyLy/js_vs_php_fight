@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import countHits from './countHits';
-import goku from './goku.png';
+import js from './js.png';
 
-class Goku extends Component {
+class Js extends Component {
   render() {
 
     const { name, addOneHit, hocState, life } = this.props;
@@ -16,7 +16,7 @@ class Goku extends Component {
     return (
       <div className="col">
         
-        <img src={goku} alt="goku" /><br />
+        <img src={js} alt="js" /><br />
         { button }
 
         <table className="table table-striped">
@@ -38,4 +38,4 @@ class Goku extends Component {
   }
 }
 
-export default countHits(Goku, 20);
+export default countHits(Js, 20);

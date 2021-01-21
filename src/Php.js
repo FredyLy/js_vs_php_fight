@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import countHits from './countHits';
-import vegeta from './vegeta.png';
+import php from './php.png';
 
-class Vegeta extends Component {
+class Php extends Component {
   render() {
 
     const { name, addOneHit, hocState, life } = this.props;
@@ -16,7 +16,7 @@ class Vegeta extends Component {
     return (
       <div className="col">
         
-        <img src={vegeta} alt="vegeta" /><br />
+        <img className="php-img" src={php} alt="php" /><br />
         { button }
 
         <table className="table table-striped">
@@ -38,4 +38,4 @@ class Vegeta extends Component {
   }
 }
 
-export default countHits(Vegeta, 10);
+export default countHits(Php, 10);

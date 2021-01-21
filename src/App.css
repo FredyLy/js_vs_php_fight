@@ -62,3 +62,8 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+.php-img {
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+}
